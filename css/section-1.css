@@ -21,6 +21,11 @@
     justify-content: space-between;
 }
 
+.header__burger-menu,
+.header__order-btn-mobile {
+    display: none;
+}
+
 .header__title {
     max-width: 215px;
     margin-left: -65px;
@@ -134,4 +139,146 @@
     font-family: Montserrat;
     font-weight: 700;
     line-height: 24px;
+}
+
+@media (max-width: 1440px) {
+
+    .header__title {
+        margin-left: 0;
+    }
+
+    .section-1__title {
+        width: auto;
+    }
+
+    .section-1__main-content {
+        gap: 0;
+    }
+
+    .section-1__description {
+        margin-right: 50px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+    .header__order-btn {
+        width: 150px;
+    }
+
+    .section-1__title {
+        font-size: 70px;
+    }
+
+}
+
+@media (max-width: 988px) {
+
+    .header__title {
+        max-width: 160px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .header__address {
+        padding-left: 25px;
+    }
+
+    .header__phone {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .section-1__description {
+        padding-left: 10px;
+    }
+
+    .navigation__list {
+        gap: 25px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .section-1 {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .navigation_main {
+        display: none;
+    }
+
+    .header__title,
+    .header__address,
+    .header__phone,
+    .header__order-btn {
+        display: none;
+    }
+
+    .container {
+        padding: 0 13px;
+    }
+
+    .header__content {
+        height: 50px;
+    }
+
+    .header__burger-menu {
+        display: block;
+        width: 25px;
+        height: 12px;
+    }
+
+    .header__logo {
+        width: 51px;
+        height: 25px;
+    }
+
+    .header__order-btn-mobile {
+        display: block;
+    }
+
+    .section-1__main-content {
+        display: block;
+        margin-top: 65px;
+    }
+
+    .section-1__title {
+        width: 222px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .section-1__description {
+        margin-top: 30px;
+        padding-left: 25px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .section-1__advantage {
+        margin-top: 65px;
+    }
+
+    .btn-container {
+        margin-top: 55px;
+    }
+
+    .section-1__order-btn {
+        width: 280px;
+        height: 45px;
+        font-size: 12px;
+        background-position: center right 30px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .advantage__list {
+        display: block;
+        gap: 0;
+    }
 }
