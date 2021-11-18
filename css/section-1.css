@@ -1,0 +1,137 @@
+.section-1 {
+    width: 100%;
+    height: 1050px;
+    background-image: url("../img/section-1-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header {
+    background: rgba(20, 20, 20, .2);
+    backdrop-filter: blur(5px);
+}
+
+.header__content {
+    width: 100%;
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title {
+    max-width: 215px;
+    margin-left: -65px;
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 16px;
+    mix-blend-mode: multiply;
+}
+
+.header__address {
+    background-image: url("../img/geo.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    max-width: 230px;
+    padding-left: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header__phone {
+    background-image: url("../img/phone-call.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 38px;
+}
+
+.header__order-btn {
+    color: #F8B043;
+    width: 379.21px;
+    height: 69px;
+    border: 2px solid #F8B043;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.navigation_main {
+    margin-top: 25px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 50px;
+}
+
+.section-1__main-content {
+    display: flex;
+    align-items: center;
+    gap: 376px;
+    margin-top: 83px;
+}
+
+.section-1__description {
+    border-left: 5px solid #fff;
+    padding-left: 30px;
+}
+
+.section-1__text:not(:first-child) {
+    padding-top: 25px;
+}
+
+.section-1__title {
+    display: inline-block;
+    width: 769px;
+    font-family: Bebas Neue;
+    font-size: 104px;
+    letter-spacing: -0.005em;
+}
+
+.section-1__advantage {
+    margin-top: 75.52px;
+}
+
+.advantage__list {
+    display: flex;
+    gap: 56px;
+}
+
+.advantage__item {
+    width: 256px;
+    height: 74.95px;
+    background-image: url("../img/rectangle.png");
+    background-repeat: no-repeat;
+    font-family: Bebas Neue;
+    line-height: 24px;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+.btn-container {
+    margin-top: 80px;
+}
+
+.section-1__order-btn {
+    color: #FAFAFA;
+    background-color: #F8B043;
+    background-image: url("../img/arrow-right.png");
+    background-repeat: no-repeat;
+    background-position: center right 45px;
+    text-align: left;
+    padding-left: 45px;
+    width: 424px;
+    height: 69px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+}

@@ -1,0 +1,14 @@
+.footer {
+    background-color: #141414;
+}
+
+.footer__content {
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    font-weight: 500;
+}

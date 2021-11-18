@@ -19,7 +19,7 @@ body {
     font-family: Muller, sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     background-color: #FAFAFA;
 }
 
@@ -56,8 +56,7 @@ address {
     font-style: normal;
 }
 
-/* .container {
-    max-width: 1140px;
-    padding: 0 17px;
+.container {
+    max-width: 1516.83px;
     margin: 0 auto;
-} */
+}
