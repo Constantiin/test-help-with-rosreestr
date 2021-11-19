@@ -1,3 +1,13 @@
+let swiper = new Swiper(".swiper", {
+    slidesPerView: 4,
+    spaceBetween: 80,
+    navigation: {
+        nextEl: ".section-3__arrow_right",
+        prevEl: ".section-3__arrow_left",
+        disabledClass: "section-3__arrow_disable"
+    },
+});
+
 let mobileMenu = document.querySelector('.mobile-menu');
 
 document.addEventListener('click', getActive);
