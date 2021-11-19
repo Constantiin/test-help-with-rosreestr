@@ -6,6 +6,16 @@ let swiper = new Swiper(".swiper", {
         prevEl: ".section-3__arrow_left",
         disabledClass: "section-3__arrow_disable"
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        },
+    }
 });
 
 let mobileMenu = document.querySelector('.mobile-menu');
