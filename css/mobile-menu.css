@@ -13,7 +13,7 @@
     z-index: 5;
 
     left: -150%;
-    transition: left .3s;
+    transition: left .5s;
 }
 
 .mobile-menu_active {
@@ -47,7 +47,7 @@
 .search__input {
     width: 261px;
     height: 48px;
-    padding-right: 45px;
+    padding-right: 50px;
 }
 
 .search__icon {
