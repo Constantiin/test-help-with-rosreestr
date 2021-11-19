@@ -209,7 +209,7 @@
 @media (max-width: 750px) {
 
     .section-1 {
-        height: 724px;
+        height: 750px;
         padding-bottom: 30px;
     }
 
@@ -264,6 +264,7 @@
         font-weight: 500;
         font-size: 12px;
         line-height: 12px;
+        border-left: 3px solid #fff;
     }
 
     .section-1__advantage {
