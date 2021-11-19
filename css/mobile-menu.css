@@ -1,0 +1,71 @@
+.header__phone_mobile,
+.header__address_mobile {
+    display: block;
+}
+
+.mobile-menu {
+    position: absolute;
+    width: 300px;
+    height: 724px;
+    background-color: #141414;
+    padding: 18px 0 0 19px;
+    color: #fff;
+    z-index: 5;
+
+    left: -150%;
+    transition: left .3s;
+}
+
+.mobile-menu_active {
+    left: 0;
+}
+
+.mobile-menu__list {
+    margin-top: 47px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.mobile-menu__item:not(:first-child) {
+    border-top: 1px solid #4A4A4A;
+}
+
+.mobile-menu__item {
+    margin-left: -19px;
+    padding: 10px 19px;
+    width: 281px;
+}
+
+.search {
+    display: flex;
+}
+
+.mobile-menu__search {
+    margin-top: 40px;
+}
+
+.search__input {
+    width: 261px;
+    height: 48px;
+    padding-right: 45px;
+}
+
+.search__icon {
+    position: relative;
+    right: 44px;
+    top: 3px;
+    height: 42px;
+    object-fit: cover;
+}
+
+.header__address_mobile {
+    margin-top: 40px;
+    padding-left: 40px;
+    width: 200px;
+}
+
+.header__phone_mobile {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 45px;
+}

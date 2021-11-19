@@ -88,6 +88,8 @@
 .section-1__description {
     border-left: 5px solid #fff;
     padding-left: 30px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .section-1__text:not(:first-child) {
@@ -112,14 +114,14 @@
 }
 
 .advantage__item {
-    width: 256px;
-    height: 74.95px;
+    width: 280px;
+    height: 55px;
     background-image: url("../img/rectangle.png");
     background-repeat: no-repeat;
-    font-family: Bebas Neue;
+    background-position: left center;
     line-height: 24px;
     padding-left: 25px;
-    padding-top: 3px;
+    padding-top: 5px;
 }
 
 .btn-container {
@@ -198,12 +200,16 @@
         gap: 25px;
     }
 
+    .advantage__item {
+        font-size: 15px;
+    }
+
 }
 
 @media (max-width: 750px) {
 
     .section-1 {
-        height: auto;
+        height: 724px;
         padding-bottom: 30px;
     }
 
@@ -279,6 +285,9 @@
 
     .advantage__list {
         display: block;
-        gap: 0;
+    }
+
+    .advantage__item:not(:first-child) {
+        margin-top: 20px;
     }
 }
